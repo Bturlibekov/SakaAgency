@@ -1,0 +1,37 @@
+.title {
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 38px;
+    }
+
+    .aboutus-title {
+        max-width: 100% !important;
+        line-height: 1.2em !important;
+    }
+
+    .info__title {
+        line-height: 1.2em !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .title {
+        font-size: 28px;
+    }
+
+    .project-title {
+        font-size: 18px;
+    }
+}

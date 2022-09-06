@@ -1,0 +1,21 @@
+@import '../base/vars';
+@import '../base/mixins';
+
+body {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+    background-color: #13141D;
+}
+
+.main__page {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import "./scroll";
